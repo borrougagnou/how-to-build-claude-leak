@@ -1,4 +1,4 @@
-# How to build Claude Code CLI leak 2026-03-31
+# How to build Claude Code CLI 1.0.34
 
 People talk a lot about the features that Claude-code has.
 
