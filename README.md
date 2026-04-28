@@ -812,6 +812,24 @@ src/entrypoints/cli.tsx    -> Bootstrap: version check, fast paths (--version)
 
 
 
+## More !!
+
+### How to enable "autobuild" and "multiprocess" on claude code for Pro account ?
+
+
+Here's the fun part, I think Claude doesn't want people to use this feature with a "Pro" account…
+
+But it's really annoying, and the "Pro" subscription shouldn't be blocked, nor should it be treated as a "demo" to encourage people to switch to a $100 version.<br/>
+That's unacceptable!
+
+So here's my contribution to claude-code to change that system:
+
+just execute the `apply-pro-max-features.sh`
+
+it will enable the `autobuild` mode and will change the `multiprocess` from 1 to 3.
+
+
+
 ## Source
 
 - Bun standalone executables: https://bun.sh/docs/bundler/executables
